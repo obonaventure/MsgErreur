@@ -1,0 +1,4 @@
+noproto.c:2:6: warning: no previous prototype for function 'f' [-Wmissing-prototypes]
+void f() {
+     ^
+1 warning generated.
