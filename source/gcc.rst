@@ -39,7 +39,7 @@ Cette erreur signifie généralement que le fonction incriminée surcharge une f
 déjà existante dans un package inclus dans le programme. Dans cet exemple, il s'agit de la fonction
 ``strcpy`` du package ``string.h``.
 
-La solution la plus simple est de renommer sa fonction afin d'éviter le conflit, par exemple ```my_strcpy``.
+La solution la plus simple est de renommer sa fonction afin d'éviter le conflit, par exemple ``my_strcpy``.
 
 Il est toutefois possible de redefinir une telle fonction en utilisant la même signature. Ceci est
 illustré avec la seconde fonction qui ne génère pas d'erreur. Cette redéfinition ne sera valable que localement.
@@ -69,7 +69,8 @@ Une autre variante de cette erreur peut être trouvée dans l'exemple ci-dessous
 .. literalinclude:: src/implicit2/implicit2.c
     :language: c
 
-Dans ce cas ci, l'oubli de l'``include`` provoque cette erreur. Ici, gcc_ détecte qu'il s'agit d'un potentiel appel système, aussi
+Dans ce cas ci, l'oubli de l'``include`` provoque cette erreur. Ici, gcc_ détecte
+qu'il s'agit d'un potentiel appel à une fonction venant d'une bibliothèque, aussi
 il conseille le bon package à inclure.
 
 .. literalinclude:: src/implicit2/implicit2.gcc
