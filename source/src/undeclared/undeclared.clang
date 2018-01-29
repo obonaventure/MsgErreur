@@ -1,0 +1,4 @@
+undeclared.c:4:16: error: use of undeclared identifier 'a'
+  printf("%i", a);
+               ^
+1 error generated.

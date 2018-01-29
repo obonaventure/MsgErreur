@@ -1,0 +1,5 @@
+undeclared.c: In function ‘main’:
+undeclared.c:4:16: error: ‘a’ undeclared (first use in this function)
+   printf("%i", a);
+                ^
+undeclared.c:4:16: note: each undeclared identifier is reported only once for each function it appears in

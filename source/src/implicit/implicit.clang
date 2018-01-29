@@ -1,0 +1,7 @@
+implicit.c:5:16: warning: implicit declaration of function 'sum' is invalid in C99 [-Wimplicit-function-declaration]
+  printf("%i", sum(2, 3));
+               ^
+implicit.c:8:5: warning: no previous prototype for function 'sum' [-Wmissing-prototypes]
+int sum(int a, int b){
+    ^
+2 warnings generated.
