@@ -1,0 +1,6 @@
+implicit2.c: In function ‘main’:
+implicit2.c:3:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   printf("%i", a);
+   ^
+implicit2.c:3:3: warning: incompatible implicit declaration of built-in function ‘printf’
+implicit2.c:3:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

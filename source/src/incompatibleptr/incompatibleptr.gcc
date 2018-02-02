@@ -1,0 +1,7 @@
+incompatibleptr.c: In function ‘main’:
+incompatibleptr.c:10:14: warning: passing argument 1 of ‘double_arg’ makes pointer from integer without a cast [-Wint-conversion]
+   double_arg(a);
+              ^
+incompatibleptr.c:4:6: note: expected ‘int *’ but argument is of type ‘int’
+ void double_arg(int* a){
+      ^

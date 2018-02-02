@@ -1,0 +1,5 @@
+implicit2.c:3:3: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+  printf("%i", a);
+  ^
+implicit2.c:3:3: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.

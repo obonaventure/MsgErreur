@@ -1,0 +1,11 @@
+incompatibleptr.c:4:6: warning: no previous prototype for function 'double_arg' [-Wmissing-prototypes]
+void double_arg(int* a){
+     ^
+incompatibleptr.c:10:14: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'int *'; take the address with & [-Wint-conversion]
+  double_arg(a);
+             ^
+             &
+incompatibleptr.c:4:22: note: passing argument to parameter 'a' here
+void double_arg(int* a){
+                     ^
+2 warnings generated.

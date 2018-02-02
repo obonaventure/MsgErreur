@@ -1,0 +1,10 @@
+conflictingtype.c:6:7: error: conflicting types for 'strcpy'
+char *strcpy(const char *src, int len){
+      ^
+/usr/include/string.h:125:14: note: previous declaration is here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+             ^
+conflictingtype.c:7:36: warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+  char *dest = malloc(sizeof(char)*len);
+                                  ~^~~
+1 warning and 1 error generated.

@@ -1,0 +1,7 @@
+conflictingtype.c:6:7: error: conflicting types for ‘strcpy’
+ char *strcpy(const char *src, int len){
+       ^
+In file included from conflictingtype.c:4:0:
+/usr/include/string.h:125:14: note: previous declaration of ‘strcpy’ was here
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^

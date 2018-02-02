@@ -1,0 +1,4 @@
+implicit.c: In function ‘main’:
+implicit.c:5:16: warning: implicit declaration of function ‘sum’ [-Wimplicit-function-declaration]
+   printf("%i", sum(2, 3));
+                ^
