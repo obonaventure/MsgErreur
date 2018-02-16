@@ -6,4 +6,4 @@ Les étudiants qui souhaitent participer à la rédaction de ce document peuvent
 
 La version HTML du document est disponible via https://sites.uclouvain.be/SystInfo/MsgErreur/
 
-Ce document est distributé sous licence Creative Commons CC-BY-SA (https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+Ce document est distribué sous licence Creative Commons CC-BY-SA (https://creativecommons.org/licenses/by-sa/3.0/deed.en)
