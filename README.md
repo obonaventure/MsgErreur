@@ -22,11 +22,15 @@ En cliquant sur le bouton *New Issue* vous entrez sur l'écran qui vous permet d
 
 ![troisième étape](/images/pr3.png)
 
+Fournissez une explication en français de l'erreur et de comment la corriger (dans l'exemple simple ci-dessus, il manque évidemment un ``return`` et il suffit de rajouter ``return 0;`` dans le corps de la fonction ``main``).
+
 Vérifiez via le bouton *Preview* que votre issue est claire et que la coloration de syntaxe fonctionne correctement
 
 ![quatrième étape](/images/pr4.png)
 
 Si tout est bon, il vous suffit de soumettre votre issue via le bouton *Submit new issue*
+
+Vous trouverez un exemple d'issue [ici](https://github.com/obonaventure/MsgErreur/issues/2)
 
 **Deuxième phase**: proposer des `pull-requests <https://github.com/obonaventure/MsgErreur/pulls>` via github. Un pull-request doit idéalement contenir toutes les informations relatives à un messages d'erreur, si possible pour [clang](https://clang.llvm.org) et [gcc](https://gcc.gnu.org). Le premier message d'erreur repris dans le document de base devrait vous servir d'exemple.
 
